@@ -1,0 +1,22 @@
+#landing-page #header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url('./images/landing-page-header.svg');
+    background-size: cover;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+#landing-page #header .title {
+    font-size: 5em;
+    font-weight: 800;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+}
+
+#landing-page #header br {
+    line-height: 1.5em;
+}

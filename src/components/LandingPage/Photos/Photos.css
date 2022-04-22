@@ -1,0 +1,22 @@
+#landing-page #header #photos {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-self: center;
+}
+
+#photos .photo {
+    margin-right: 10vw;
+}
+
+#photos img:nth-child(even) {
+    transform: rotate(-10deg);
+}
+
+#photos img:nth-child(odd) {
+    transform: rotate(20deg);
+}
+
+#photos img:last-child {
+    margin-right: 0;
+}

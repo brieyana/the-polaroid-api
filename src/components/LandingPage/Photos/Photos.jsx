@@ -1,0 +1,16 @@
+import React from 'react';
+import './Photos.css';
+import tree from './images/tree.png';
+import flowers from './images/flowers.png';
+
+const Photos = () => {
+    return (
+        <div id="photos">
+            <img className="photo" src={tree} alt="A tree" />
+            <img className="photo" src={flowers} alt="Flowers" />
+            <img className="photo" src={tree} alt="A tree" />
+        </div>
+    )
+}
+
+export default Photos;

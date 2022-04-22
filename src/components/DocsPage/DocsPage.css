@@ -1,0 +1,42 @@
+#docs-page {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+#docs-page #body {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100vw;
+}
+
+#docs-page .sidebar {
+    margin-left: 2vw;
+    position: absolute;
+}
+
+#docs-page .section {
+    width: 50%;
+    margin-bottom: 4vh;
+}
+
+#docs-page .section .title {
+    text-align: center;
+}
+
+#docs-page .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#docs-page form {
+    margin-bottom: 4vh;
+}
+
+#docs-page #response {
+    width: 50%;
+    height: fit-content;
+}

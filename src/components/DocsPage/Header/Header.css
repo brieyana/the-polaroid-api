@@ -1,0 +1,27 @@
+#docs-page #header {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url('./images/docs-page-header.svg');
+    background-size: cover;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+#docs-page #header .title {
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+    text-align: center;
+    align-self: center;
+    flex-grow: 1;
+}
+
+#docs-page #header .title h1 {
+    align-self: center;
+    font-weight: 800;
+}
+
+#docs-page #header br {
+    line-height: 1.5em;
+}

@@ -1,0 +1,49 @@
+fieldset {
+    font-size: 1em;
+    border-radius: 1em;
+    border-width: 0;
+}
+
+label, input, button {
+    font-size: inherit;
+    padding: 0.3em 0.4em;
+    margin: 0.1em 0.2em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 1px solid rgb(232, 231, 231);
+    background-color: #fff;
+}
+
+label {
+    margin-right: 0;
+    font-weight: 400;
+    border-radius: 0.6em 0 0 0.6em;
+    background-color: rgb(232, 231, 231);
+}
+
+input {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+}
+
+input:focus {
+    outline: none;
+    background-color: white;
+}
+
+button {
+    margin-left: 0;
+    border-radius: 0 0.6em 0.6em 0;
+    color: white;
+    background-color: black;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
