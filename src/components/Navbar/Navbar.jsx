@@ -6,10 +6,10 @@ const Navbar = ({ link }) => {
     return (
         <div id="navbar">
             <div className="link">
-                <a href="https://github.com/brieyana" target="_blank" rel="noreferrer">GITHUB</a>
+                <a href={route} rel="noreferrer">{link}</a>
             </div>
             <div className="link">
-                <a href={route} rel="noreferrer">{link}</a>
+                <a href="https://github.com/brieyana" target="_blank" rel="noreferrer">GITHUB</a>
             </div>
         </div>
     )
