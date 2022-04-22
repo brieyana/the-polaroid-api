@@ -3,7 +3,6 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import SearchBar from './SearchBar';
 import Section from '../Section';
-import ResponseContainer from './ResponseContainer';
 
 import './DocsPage.css';
 
@@ -24,7 +23,6 @@ const DocsPage = () => {
                         proident sint velit ex. Voluptate aute aliqua incididunt ullamco esse sint anim 
                         nulla dolor aute ipsum eu nulla." />
                     <SearchBar />
-                    <ResponseContainer />
                 </div>
             </div>
         </div>
