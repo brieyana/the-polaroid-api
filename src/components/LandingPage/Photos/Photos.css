@@ -5,6 +5,10 @@
     align-self: center;
 }
 
+.photo {
+    width: 25%;
+}
+
 #photos .photo {
     margin-right: 10vw;
 }
